@@ -1,0 +1,11 @@
+<?php
+print("你正在使用的文件名为：");
+print(_file_);
+print("<br>");
+print("<hr>");
+print("你的操作系统为：");
+print(PHP_OS);
+print("<HR>");
+print("你的PHP版本为：");
+print(PHP_VERSION);
+?>
