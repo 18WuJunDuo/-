@@ -1,0 +1,12 @@
+<?php
+print("File.txt文件是否存在？"."<br>");
+if(file_exists("File.txt"))
+{
+    print("这个文件存在");
+    print(fileinode("File.txt"));
+}
+else
+{
+    print("文件不存在");
+}
+?>
