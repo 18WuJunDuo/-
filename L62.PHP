@@ -1,4 +1,4 @@
-<?
+<?php
 print("开始时间；".microtime()."<br>");
 
 for($index = 0; $index < 10; $index++)
