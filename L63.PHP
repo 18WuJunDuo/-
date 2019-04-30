@@ -1,0 +1,11 @@
+<?php
+print(microtime());
+SLEEP(10);
+PRINT("<BR>");
+print(microtime());
+print("<hr>");
+print(microtime());
+usleep(30);
+print("<br>");
+print(microtime());
+?>
